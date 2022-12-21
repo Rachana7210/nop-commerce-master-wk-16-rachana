@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6777398700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to register page successfully",
+        "description": "",
+        "id": "register-page-test;user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 740801500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142219000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 870193300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68599200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \"Register\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterSteps.iShouldSeeText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Register Page test",
+    "description": "As user I want to register on nopcommerce website",
+    "id": "register-page-test",
+    "keyword": "Feature",
+    "uri": "register.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
